@@ -1,0 +1,95 @@
+.Button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 240px;
+  margin-top: 60px;
+}
+
+.button-refresh {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  margin-right: 30px;
+  transition: .5s all;
+}
+
+.button-refresh:hover {
+  color: rgb(24, 22, 177);
+}
+
+.button-open {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  transition: .5s all;
+}
+
+.button-open:hover {
+  color: #4B0082;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Input-drink {
+  width: 380px;
+  height: 40px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-top: 16px;
+}
+
+.Select-country {
+  width: 200px;
+  height: 24px;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.Div-buttons {
+  margin-top: 8px;
+}
+
+.Button-cancel {
+  width: 80px;
+  height: 40px;
+  margin-right: 12px;
+  border: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: .5s all;
+}
+
+.Button-cancel:hover {
+  color: red;
+}
+
+.Button-submit {
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 6px;
+  background-color: #7FFF00;
+  transition: .5s all;
+}
+
+.Button-submit:hover {
+  color: #FFF;
+}

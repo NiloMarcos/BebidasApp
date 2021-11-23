@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.Contaner-drink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.Drink-name {
+  font-size: 22px;
+}
+
+.Drink-country {
+  font-size: 22px;
+  margin-left: 14px;
+}
